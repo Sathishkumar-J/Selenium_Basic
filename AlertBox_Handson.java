@@ -21,7 +21,7 @@ public class AlertBox_Handson
 		displayalert.click();
 		// Seleninum have interface (Alert) is a very important 
 		Alert alert = driver.switchTo().alert();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		alert.accept();
 		
 		//2. Click the button to display a confirm box.
@@ -29,7 +29,7 @@ public class AlertBox_Handson
 		confirmbox.click();
 		//Alert interface using
 		Alert confirmalert = driver.switchTo().alert();
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		confirmalert.dismiss();
 		
 		//3. Click the button to display a prompt box.
@@ -38,7 +38,7 @@ public class AlertBox_Handson
 		//Alert interfce using
 		Alert promptalert = driver.switchTo().alert();
 		promptalert.sendKeys("Test");
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		promptalert.accept();
 				
 	}
