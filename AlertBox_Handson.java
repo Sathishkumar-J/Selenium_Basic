@@ -1,4 +1,4 @@
-package Seleninum_Handson;
+package Seleninum_Handsons;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
